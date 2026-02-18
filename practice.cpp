@@ -40,16 +40,22 @@ int main () {
 // changes are made to the original value
 // by attaching an "&" to the parameter, we can pass by reference
 
-void doSomething(string s) {
-    s[0]= 't';
-    cout << s << endl;
-
-
+void doSomething (int arr[], int n) {
+    arr[0]=100;
+    cout<< "value inside function" << arr[0] << endl;
 }
 
+
 int main () {
-    string s= "rohit";
-    doSomething(s);
-    cout << s << endl;
+    int n= 5;
+    int arr[n];
+    for (int i =0; i<n; i=i+1) {
+        cin>> arr[i];
+
+    }
+    doSomething(arr, n);
+
+    cout << "value inside int main" << arr[0] << endl;
+
     return 0;
 }
