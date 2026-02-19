@@ -41,7 +41,7 @@ int main () {
 // by attaching an "&" to the parameter, we can pass by reference
 
 void doSomething (int arr[], int n) {
-    arr[0]=100;
+    arr[0]+=100;
     cout<< "value inside function" << arr[0] << endl;
 }
 
