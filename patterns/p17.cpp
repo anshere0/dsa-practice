@@ -1,5 +1,6 @@
 // combintion of 7 and 11
 
+<<<<<<< HEAD:p17.cpp
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -37,3 +38,6 @@ int main () {
     print17(n);
 return 0;
 }
+=======
+ṇ
+>>>>>>> b16a682f26e7c3d09cbd37cf43bc4849755d874e:patterns/p17.cpp
