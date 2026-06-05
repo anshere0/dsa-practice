@@ -23,7 +23,7 @@ This repository contains coding problems, solutions, and practice exercises focu
 
 # Language Used
 
-- Java
+- c++
 
 ---
 
